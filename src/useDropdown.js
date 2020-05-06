@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+//custom hook created to handle dropdown
 const useDropdown = (label, defaultState, options) => {
     const [state, setState] = useState(defaultState);
 
