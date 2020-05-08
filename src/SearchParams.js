@@ -17,10 +17,11 @@ const SearchParams = () => {
       type: animal
     });
 
-
+    //sets the req pets to the animals array or an empty array
     setPets(animals || []);
     console.log("animals", animals);
   }
+  
   useEffect(() => {
     setBreeds([]);
     setBreed("");

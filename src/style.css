@@ -66,10 +66,17 @@
   }
   
   .image-container {
-    clip-path: circle(50% at 50% 50%);
+   border-radius: 50%;
     width: 100px;
     height: 100px;
     float: left;
+    margin: 0px 20px 0px 10px;
+  }
+
+  .image-center img {
+    clip-path: circle(50% at 50% 50%);
+    width: 100px;
+    height: 100px;
     margin: 0px 20px 0px 10px;
   }
   
